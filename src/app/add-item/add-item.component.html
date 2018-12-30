@@ -1,0 +1,12 @@
+<form [formGroup]="addAssignment">
+  <mat-card class="card">
+    <button [disabled]="!addAssignment.valid" (click)="add()" class="add" mat-mini-fab
+      color="primary">+</button>
+    <mat-form-field class="field">
+      <input formControlName="addItem" type="text" matInput placeholder="Add new assignment">
+      <mat-error>
+        <p *ngIf="addAssignment.get('addItem').value === ''">write some text</p>
+      </mat-error>
+    </mat-form-field>
+  </mat-card>
+</form>

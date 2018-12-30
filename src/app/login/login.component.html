@@ -1,0 +1,11 @@
+<mat-card class="login-card">
+  <div [formGroup]="checkUser" class="example-container">
+    <mat-form-field>
+      <input formControlName="loginUser" matInput placeholder="Username" >
+    </mat-form-field>
+    <mat-form-field>
+      <input formControlName="loginPass" matInput placeholder="Password">
+    </mat-form-field>
+    <button mat-button color="submit" type="submit" (click)="login()">LogIn</button>
+  </div>
+</mat-card>

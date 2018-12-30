@@ -1,0 +1,10 @@
+<mat-card class="card" *ngFor="let item of getItems(); let i = index">
+  <div class="row">
+    <div class="col-sm-11">
+      <mat-checkbox class="checkbox" (change)="checked(item)" [(ngModel)]="item.done">
+        {{ item.content }}
+      </mat-checkbox>
+    </div>
+    <div class="col-sm-1"><mat-icon matTooltip="Delete" class="icon" (click)="deleted(item)">clear</mat-icon></div>
+  </div>
+</mat-card>

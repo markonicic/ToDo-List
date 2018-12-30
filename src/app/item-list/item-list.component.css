@@ -1,0 +1,16 @@
+.main {
+    max-height: 100%;
+}
+
+.card {
+    margin: 0.2rem;
+    background-color: whitesmoke;
+    height: 4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.icon {
+  cursor: pointer;
+}

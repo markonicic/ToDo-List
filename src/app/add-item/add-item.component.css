@@ -1,0 +1,21 @@
+.field {
+    width: auto;
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.card {
+    background-color: dimgray;
+    margin-bottom: 0;
+}
+
+input {
+    font-weight: bold;
+}
+
+.add {
+    color: white;
+    font-size: 2rem;
+    margin-right: 1rem;
+}

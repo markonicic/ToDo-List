@@ -1,0 +1,13 @@
+.toolbar {
+    background-color: dimgray;
+    color: white;
+    font-weight: bold;
+}
+
+.chips {
+    float: right
+}
+
+a {
+    font-weight: bold;
+}

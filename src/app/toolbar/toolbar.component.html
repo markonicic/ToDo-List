@@ -1,0 +1,12 @@
+<mat-toolbar class="toolbar">
+  <div fxLayout="row" fxFlex="20">
+    <label>{{ title }}</label>
+  </div>
+  <div fxLayout="row" fxFlex="80" fxLayoutAlign="end center">
+    <mat-chip-list class="chips">
+      <mat-chip color="primary" selected>Done: {{ sumDone() }}</mat-chip>
+      <mat-chip color="primary" selected>ToDo: {{ sumTodo() }}</mat-chip>
+      <button mat-button color="warn" (click)="logOut()"><strong>Log Out</strong></button>
+    </mat-chip-list>
+  </div>
+</mat-toolbar>
